@@ -5,6 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/calyx_devon.mk \
     $(LOCAL_DIR)/lineage_devon.mk
 
 COMMON_LUNCH_CHOICES := \
