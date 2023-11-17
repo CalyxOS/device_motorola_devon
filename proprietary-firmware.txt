@@ -1,4 +1,4 @@
-# Firmware from devon_g S2SNS32.34-72-14-1
+# Firmware from devon_g S2SN32.34-72-46
 
 abl.elf:abl.img;AB
 BTFM.bin:bluetooth.img;AB
