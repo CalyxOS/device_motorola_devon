@@ -1,4 +1,4 @@
-# Firmware from devon_g S2SN32.34-72-46
+# All firmware images below are extracted from devon_g T2SNS33.73-22-3-2
 
 abl.elf:abl.img;AB
 BTFM.bin:bluetooth.img;AB
@@ -9,7 +9,6 @@ hyp.mbn:hyp.img;AB
 keymaster.mbn:keymaster.img;AB
 logo.bin:logo.img;AB
 NON-HLOS.bin:modem.img;AB
-gpt.bin:partition.img
 prov64.mbn:prov.img;AB
 qupfw.elf:qupfw.img;AB
 rpm.mbn:rpm.img;AB
