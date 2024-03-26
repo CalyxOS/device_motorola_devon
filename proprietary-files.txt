@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from devon_g T2SNS33.73-22-3-3
+# All unpinned blobs below are extracted from devon_g T2SNS33.73-22-3-5
 
 # ACDB
 vendor/etc/acdbdata/Bluetooth_cal.acdb
@@ -180,6 +180,10 @@ vendor/lib64/hw/bix.fingerprint.default.so
 vendor/lib64/libets_teeclient_v2.so
 vendor/lib64/libree_bix_agent.so
 vendor/lib64/vendor.egistecbix.hardware.fingerprint@4.0.so
+vendor/usr/idc/uinput-egis.idc
+vendor/usr/idc/uinput-fpc.idc
+vendor/usr/keylayout/uinput-egis.kl
+vendor/usr/keylayout/uinput-fpc.kl
 
 # Graphics firmware
 vendor/firmware/a630_sqe.fw
@@ -189,14 +193,12 @@ vendor/firmware/a702_sqe.fw
 
 # NFC (ST)
 vendor/bin/STFlashTool
-vendor/bin/hw/android.hardware.nfc@1.2-service.st
-vendor/etc/init/android.hardware.nfc@1.2-service.st.rc
+vendor/etc/init/android.hardware.nfc@1.2-service.st.rc:vendor/etc/init/android.hardware.nfc@1.2-service.st-moto.rc
 vendor/etc/init/hw/init.vendor.st21nfc.rc
 vendor/etc/libnfc-hal-st.conf
 vendor/etc/libnfc-nci-st.conf
 vendor/etc/st21nfc_conf_ds.txt
 vendor/etc/st21nfc_conf_ss.txt
-vendor/lib64/nfc_nci.st21nfc.st.so
 
 # NFC firmware (ST)
 vendor/firmware/st21nfc_fw.bin
@@ -258,8 +260,8 @@ vendor/etc/sensors/sns_reg_config
 # Thermal
 vendor/bin/thermal-engine
 vendor/etc/init/init_thermal-engine.rc
-vendor/etc/thermal-engine.conf
 vendor/etc/thermal-engine-devon.conf
+vendor/etc/thermal-engine.conf
 -vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
 
